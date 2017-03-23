@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Watson-tradeoff-analytics-app-lab
+  host: Watson-tradeoff-analytics-app-lab
+  disk_quota: 1024M
+  services:
+  - Watson-tradeoff-analytics-app-lab-cloudantNoSQLDB
